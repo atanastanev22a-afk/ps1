@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche | The Ultimate Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <h1 class="preloader-text">PORSCHE</h1>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo">PORSCHE</div>
+        <nav class="nav-links">
+            <a href="#models" class="hover-link">Models</a>
+            <a href="#performance" class="hover-link">Performance</a>
+            <a href="#discover" class="hover-link">Discover</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1503376713919-8669438992e1?auto=format&fit=crop&q=80&w=2000');"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-text">Unleash</h1>
+            <h1 class="hero-title reveal-text delay-1">The Beast.</h1>
+            <p class="hero-subtitle reveal-text delay-2">Experience engineering perfection.</p>
+        </div>
+        <div class="scroll-indicator">Scroll to discover</div>
+    </section>
+
+    <!-- The Fleet Section -->
+    <section id="models" class="fleet">
+        <h2 class="section-title fade-up">The Fleet</h2>
+        <div class="grid-container">
+            <div class="grid-item fade-up">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1500" alt="Porsche Taycan">
+                </div>
+                <div class="item-info">
+                    <h3>Taycan</h3>
+                    <p>Soul, electrified.</p>
+                </div>
+            </div>
+            <div class="grid-item grid-large fade-up delay-1">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1580274455015-c7f5264b9e4a?auto=format&fit=crop&q=80&w=1500" alt="Classic Porsche 911">
+                </div>
+                <div class="item-info">
+                    <h3>911 Carrera</h3>
+                    <p>Timeless machine.</p>
+                </div>
+            </div>
+            <div class="grid-item fade-up delay-2">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=1500" alt="Porsche Interior">
+                </div>
+                <div class="item-info">
+                    <h3>Craftsmanship</h3>
+                    <p>Unmatched interior.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section id="performance" class="performance">
+        <div class="perf-content">
+            <h2 class="massive-text fade-up">3.2s</h2>
+            <p class="perf-desc fade-up delay-1">0-60 mph in the blink of an eye. Pure adrenaline.</p>
+            <button class="magnetic-btn fade-up delay-2">Build Yours</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="logo">PORSCHE</div>
+        <p>&copy; 2026 Porsche Experiences. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
